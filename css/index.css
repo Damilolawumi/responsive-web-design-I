@@ -178,7 +178,7 @@ header nav a {
     text-align: center;
     font-size: 70px;
     margin: auto;
-    fle
+
 }
 
 .middle-section {
@@ -257,11 +257,56 @@ header {
     .middle-section {
         flex: auto;
     }
-header{
-    flex-direction: column-reverse;
-}
-.my-nav{
-    display: flex;
-    justify-content: center;
-}
+
+    header {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .my-nav {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    #border {
+        margin-left: 20px;
+        margin-right: 20px;
+        x;
+    }
+
+    .inline-down {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    footer {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .middle-img {
+        margin: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
