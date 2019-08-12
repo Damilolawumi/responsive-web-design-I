@@ -154,6 +154,8 @@ h5 {
 /* Your code starts here! */
 .my-nav {
     display: inline;
+    font-family: georgia;
+    font-size: xx-large;
 }
 
 header img {
@@ -205,7 +207,7 @@ header nav a {
 
 .copyright {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
@@ -217,15 +219,17 @@ header nav a {
     display: block;
     text-align: center;
     width: 175px;
+    color: black;
+    font-weight: bold;
 }
 
 #border {
-    border-top: 1px solid black;
+    border-top: 2px solid black;
     margin-top: 70px;
 }
 
 .border {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     margin-bottom: 10px;
 }
 
@@ -233,9 +237,31 @@ header {
     margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
 
 .logo-section {
     display: flex;
     justify-content: flex-end;
+}
+
+.margin-bottom {
+    margin-top: 10px;
+}
+
+@media (min-width:500px) and (max-width:800px) {
+    #picture {
+        display: none;
+    }
+
+    .middle-section {
+        flex: auto;
+    }
+header{
+    flex-direction: column-reverse;
+}
+.my-nav{
+    display: flex;
+    justify-content: center;
+}
 }
