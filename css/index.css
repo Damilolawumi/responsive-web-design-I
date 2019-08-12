@@ -345,4 +345,7 @@ footer {
     margin-left: 20px;
     margin-right: 20px;
 }
+.contact{
+    border-bottom: 1px solid black;
+}
 }
